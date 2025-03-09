@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<html>  
+	<meta charset="UTF-8">
+	<head>
+		<title>Qingsong Wang | Homepage </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="./css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link rel="stylesheet" href="./css/main.min.css">
+		<!-- <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'> -->
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+		</script>
+	</head>
+	<body>
+		
+	<div class="header">
+		<div class="wrap">
+
+			<div class="logo">
+				<a href="index.html">HomePage</a>
+			</div>
+			
+			<div class="top-nav" >
+				<ul>
+					<li class="active"><a href="#me" class="scroll">Me</a></li>
+					<!-- <li><a href="#biography" class="scroll">Biography</a></li> -->
+					<li><a href="./publications.html">Publications</a></li>
+					<!-- <li><a href="./misc.html">Misc</a></li> -->
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			
+	     </div>
+	</div>
+
+
+<!--主要内容开始-->
+	<div class="content">
+		<div class="grid1" id="me" style="background:url(images/banner333.jpg) no-repeat 0 0; background-position: center;">
+			<a href="#"><img src="./images/wqs.jpg" title="Qingsong Wang" /></a>
+			<h3>Qingsong Wang</h3>
+            <h4>Email: nothing2wang@hotmail.com </h4>
+
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=GYqLbloAAAAJ">
+            <img src="./images/google-scholar-logo.png" width="40"/></i>
+            </a>
+            <a href="https://github.com/nothing2wang">
+            <img src="./images/GitHub.png" width="40"/></i>
+            </a>
+			
+		</div>
+
+		<!--个人简介开始-->
+		<div class="grid2" id="biography">
+			<h3>Biography</h3>
+			<p>
+				Qingsong Wang, male, Han nationality, was born in December 1992 in Bazhong, Sichuan Province, China. He received his Ph.D. in Applied Mathematics from the School of Mathematical Sciences, Beihang University, in June 2023, under the supervision of Prof. Deren Han and co-supervision of Prof. Chunfeng Cui. His research focuses on numerical optimization, machine learning, and related areas, including (non)convex optimization and tensor optimization. He has participated in national and other research projects and has published multiple papers in top AI conferences such as AAAI and academic journals including IEEE TIP, JOTA, and JCAM.
+			</p>
+		</div>
+		<!--个人简介结束-->
+		
+		<!--教育经历开始-->
+        <div class="grid2" id="biography">
+			<h3>Education</h3>
+
+            <ul>
+            <li> Jan. 2022 – Jan. 2023: Department of Mathematics, National University of Singapore (NUS) Visiting Researcher (CSC Joint Ph.D. Program), Supervisor: Prof. Kim-Chuan Toh
+            <li> Sep. 2019 – Jun. 2023: <b>Ph.D.</b> in Applied Mathematics, Beihang University Supervisor: Prof. Deren Han, Co-Supervisor: Prof. Chunfeng Cui
+            <li> Sep. 2016 – Jun. 2019: <b>M.Sc.</b> in Mathematics, Southwest Jiaotong University Supervisor: Prof. Chengjing Wang
+            <li> Sep. 2011 – Jun. 2015: <b>B.Sc.</b> in Mathematics, Southwest Jiaotong University
+			<!--  B.S.-->
+
+			</ul> 
+		</div>
+	
+		<!--研究兴趣开始-->
+        <div class="grid2" id="biography">
+			<h3>Research Interest</h3>
+
+            <ul>
+            <li> Algorithms and Theories of (Non)Convex Optimization in Machine Learning
+            <li> Algorithms and Applications of Tensor Optimization
+
+
+			</ul> 
+		</div>
+
+
+		<!--出版物内容开始-->
+		<div class="grid3" id="publication">
+
+			<div class="grid3-year"> <h3> Selected Publications <h3> </div>
+
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/2024_anm.png"><img class="enlarge" src="./pubs/imgs/2024_anm.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b>A generalized inertial proximal alternating linearized minimization method for nonconvex nonsmooth problems </b></h4>
+                    <h5> Q Wang, D Han. Applied Numerical Mathematics 2024.</h5>
+                    <h6>   
+                        [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0168927423000855">paper</a>] 
+                        [<a href="https://github.com/nothing2wang/NiPALM-Algorithm">code</a>]
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+            <!------------------------------->
+            <div class="row">
+		    <div class="grid3-content">
+			    <div class="col-md-4">
+			         <center><a href="./pubs/imgs/AAAI_2024.png"><img class="enlarge" src="./pubs/imgs/AAAI_2024.png" width="300" style="border:1px solid black"></a></center>        
+			    </div>
+
+		        <div class="col-md-8">
+		            <h4><b>A Bregman proximal stochastic gradient method with extrapolation for nonconvex nonsmooth problems</b></h4>
+		            <h5> Q Wang, Z Liu, C Cui, D Han. Proceedings of the AAAI Conference on Artificial Intelligence 2024.</h5>
+		            <h6>   
+		            	[<a href="https://ojs.aaai.org/index.php/AAAI/article/view/29485">paper</a>] 
+		            	[<a href="https://github.com/nothing2wang/BPSGE-Algorithm">code</a>]
+		            </h6>
+		        </div>
+		    </div>
+		    </div>
+		    <br>
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/2023_lcp.png"><img class="enlarge" src="./pubs/imgs/2023_lcp.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b> Inertial accelerated SGD algorithms for solving large-scale lower-rank tensor CP decomposition problems</b></h4>
+                    <h5>  Qingsong Wang, Zehui Liu, Chunfeng Cui, Deren Han</b>. Journal of Computational and Applied Mathematics 2023.</h5>
+                    <h6>   
+                        [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0377042722005465">paper</a>] 
+                        <!-- [<a href="https://github.com/xxxx">code</a>] -->
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/amaa_2023.png"><img class="enlarge" src="./pubs/imgs/amaa_2023.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b>A Momentum Accelerated Algorithm for ReLU-Based Nonlinear Matrix Decomposition</b></h4>
+                    <h5> Q Wang, C Cui, D Han. IEEE Signal Processing Letters 2023.</h5>
+                    <h6>   
+                        [<a href="https://arxiv.org/pdf/2402.02442">paper</a>] 
+                        <!-- [<a href="https://github.com/xxxx">code</a>] -->
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+            <!------------------------------->
+            <div class="row">
+            <div class="grid3-content">
+                <div class="col-md-4">
+                     <center><a href="./pubs/imgs/bregman_2023.png"><img class="enlarge" src="./pubs/imgs/bregman_2023.png" width="300" style="border:1px solid black"></a></center>        
+                </div>
+
+                <div class="col-md-8">
+                    <h4><b>A Bregman stochastic method for nonconvex nonsmooth problem beyond global Lipschitz gradient continuity</b></h4>
+                    <h5> Qingsong Wang, Deren Han. Optimization Methods and Software 2023.</h5>
+                    <h6>   
+                        [<a href="https://www.tandfonline.com/doi/abs/10.1080/10556788.2023.2189717">paper</a>] 
+                        <!-- [<a href="https://github.com/xxxx">code</a>] -->
+                    </h6>
+                </div>
+            </div>
+            </div>
+            <br>
+
+            <div class="grid3-content">
+                <h5><b>*</b> Corresponding author</h5>
+            </div>
+
+            
+
+
+		</div>	
+		<!--出版物内容结束-->
+
+
+
+		<!--项目介绍开始-->
+        <div class="grid3-year"> <h3> Projects </h3> </div>
+		<div class="grid3">
+			<div class="grid3-content">
+	
+				<ul>
+					<li><h5>Host Projects:</h5>
+					<ul>
+                         <li> 国家自然科学基金委员会, 重大研究计划, 92473208, 芯粒分解和组合优化方法, 2025-01-01 至 2028-12-31, 300万元, 在研, 参与
+                         <li> 国家自然科学基金委员会, 面上项目, 12471282, 耦合张量分解的模型和非光滑优化算法研究, 2025-01-01 至 2028-12-31, 43万元, 在研, 参与
+                         <li> 国家自然科学基金委员会, 青年科学基金项目（C类）[原青年科学基金项目], 12401415, 数据驱动下广义张量CP分解的模型与算法研究, 2025-01-01 至 2027-12-31, 30万元, 在研, 主持
+                         <li> 湖南省自然科学基金-青年科学基金C类 [原青年科学基金] 2025JJ60009    基于非欧氏分布的张量分解算法及其应用研究    2025-2027，在研，主持
+                         <li> 北京航空航天大学，博士研究生卓越学术基金，2022/05-2023/04，结题，主持
+					</ul>
+
+					<br>
+					<li><h5>Involved Projects:</h5>
+					<ul> 
+                        <li> 国家自然科学基金数学天元基金项目，在研，参与
+                        <li> 国家重点研发计划“数学和应用研究”专项“揭榜挂帅”项目子课题，在研，参与
+					</ul>
+
+
+
+				</ul>
+			</div>
+		</div>
+		<!--项目介绍结束-->
+
+
+        <!--专利开始-->
+<!--         <div class="grid3-year"> <h3> Patents </h3> </div>
+        <div class="grid3">
+            <div class="grid3-content">
+    
+                <ul>
+                    <li> 
+
+                </ul>
+            </div>
+        </div> -->
+        <!--专利结束-->
+
+
+		<!--社会荣誉介绍开始-->
+        <div class="grid3-year"> <h3> Major Awards & Honors </h3> </div>
+		<div class="grid3">
+			<div class="grid3-content">
+				<ul>
+
+                <li> 北京航空航天大学“研究生十佳”提名奖, 2023
+                <li> 北京市优秀毕业生, 2023
+
+
+				</ul>
+			</div>
+		</div>
+		<!--社会荣誉介绍结束-->
+
+
+
+	</div>
+	<!--主要内容结束-->
+
+	<div class="footer">
+		<p>Homepage of Qingsong Wang</p>
+	</div>
+
+	</body>
+</html>
+
