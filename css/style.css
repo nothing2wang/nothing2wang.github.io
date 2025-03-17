@@ -39,6 +39,10 @@ body{background: #F5F5F5;}
     font-style: normal;
 
 }
+
+i{
+	font-style: oblique;
+}
 .wrap{
 	width:80%;
 	margin:0 auto;
